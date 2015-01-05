@@ -1,0 +1,25 @@
+<ion-side-menus>
+
+    <ion-pane ion-side-menu-content>
+        <ion-nav-bar class="bar bar-header bar-light">
+            <h1 class="title">Title</h1>
+            <ion-nav-buttons side="left">
+                <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view>
+    </ion-pane>
+
+    <ion-side-menu side="left">
+        <ion-content>
+            <ion-list class="main-menu">
+                <ion-item menu-close href="#/app/home">
+                    <i class="ti ion-home"></i> Home
+                </ion-item>
+                <ion-item menu-close href="#/app/section">
+                  <i class="ti ion-gear-b"></i> Section
+                </ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>
